@@ -269,3 +269,7 @@ If you have a project that doesn't use typescript you can use the samples below 
     export default App;
 </script>
 ```
+
+### Special Thanks
+
+Dr. Abstract [@danzen](https://github.com/danzen)
