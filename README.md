@@ -42,7 +42,6 @@ If you have a project that doesn't use typescript you can use the samples below 
 <script setup>  
   import { onMounted, onBeforeUnmount } from "vue";
   import zim from "zimjs";
-
   let frame;
   onMounted(() => {
     frame = new zim.Frame({
@@ -56,16 +55,13 @@ If you have a project that doesn't use typescript you can use the samples below 
       }
     });
   });
-
   onBeforeUnmount(() => {
     frame.dispose();
   });  
 </script>
-
 <template>
   <div id="zim"></div>
 </template>
-
 <style>
 </style>
 ```
@@ -74,9 +70,7 @@ If you have a project that doesn't use typescript you can use the samples below 
 <script setup>  
   import { onMounted, onBeforeUnmount } from "vue";
   import zim from "zimjs";
-
   zim.zimplify(); // make zim commands global
-
   let frame;
   onMounted(() => {
     frame = new Frame({
@@ -90,16 +84,13 @@ If you have a project that doesn't use typescript you can use the samples below 
       }
     });
   });
-
   onBeforeUnmount(() => {
     frame.dispose();
   });  
 </script>
-
 <template>
   <div id="zim"></div>
 </template>
-
 <style>
 </style>
 ```
@@ -108,7 +99,6 @@ If you have a project that doesn't use typescript you can use the samples below 
 <script >  
   import { onMount, onDestroy } from "svelte";
   import zim from "zimjs";
-
   let frame: Frame;
   onMount(() => {
     frame = new zim.Frame({
@@ -126,16 +116,13 @@ If you have a project that doesn't use typescript you can use the samples below 
       new zim.Circle(50, red).center().drag();
     }
   });
-
   onDestroy(() => {
     frame.dispose();
   });
 </script>
-
 <main>
   <div id="zim">
 </main>
-
 <style>
 </style>
 ```
@@ -144,7 +131,6 @@ If you have a project that doesn't use typescript you can use the samples below 
 <script>  
   import { onMount, onDestroy } from "svelte";
   import zim from "zimjs";
-
   zim.zimplify(); // make zim commands global
   
   let frame;
@@ -160,16 +146,13 @@ If you have a project that doesn't use typescript you can use the samples below 
       }
     });
   });
-
   onDestroy(() => {
     frame.dispose();
   });
 </script>
-
 <main>
   <div id="zim">
 </main>
-
 <style>
 </style>
 ```
@@ -179,7 +162,6 @@ If you have a project that doesn't use typescript you can use the samples below 
     import { Component, ReactNode, StrictMode } from "react";
     import "./App.css";
     import zim from "zimjs";
-
     class ZimFrame extends Component {
       frame: zim.Frame | undefined;
   
@@ -202,7 +184,6 @@ If you have a project that doesn't use typescript you can use the samples below 
           return null;
       }
     }
-
     function App() {
       return (
           <>
@@ -226,9 +207,7 @@ If you have a project that doesn't use typescript you can use the samples below 
     import { Component, ReactNode, StrictMode } from "react";
     import "./App.css";
     import zim from "zimjs";
-
     zim.zimplify(); // make zim commands global
-
     class ZimFrame extends Component {
       frame: Frame | undefined;
   
@@ -251,7 +230,6 @@ If you have a project that doesn't use typescript you can use the samples below 
           return null;
       }
     }
-
     function App() {
       return (
           <>
@@ -269,6 +247,7 @@ If you have a project that doesn't use typescript you can use the samples below 
     export default App;
 </script>
 ```
+
 
 ### Special Thanks
 
