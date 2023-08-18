@@ -1,10 +1,11 @@
 #Welcome
 
-This is a simple collection of templates that inplement zimjs into your app development using NPM.
+Here are templates to add ZIM to Vue, React, Svelte and Angular using NPM.
 
 Useful links:
-- https://zimjs.org 
+- https://zimjs.com 
 - https://www.npmjs.com/package/zimjs
+- https://github.com/danzen/zimjs
 - https://zimjs.slack.com
 
 ### Intructions
@@ -13,12 +14,12 @@ Useful links:
 2. Just clone the repo or download the template you want. 
 3. Open the template folder of your choice in your editor 
 
-  If you are using React, Vue, Svelte
+If you are using React, Vue, Svelte
 
 5. Run ```npm install```
 6. Run ```npm run dev```
 
-If you are have angular and haven't done so already, install it globally by running 
+If you are have Angular and haven't done so already, install it globally by running 
 
 ```
 npm install -g @angular/cli
@@ -31,10 +32,9 @@ npm install -g @angular/cli
  And you are good to go.
 
 
-## Using zim without typescript 
+## Using ZIM without typescript 
 
-If you have a project that doesn't use typescript you can use the samples below to add zimjs to your project
-
+If you have a project that doesn't use typescript you can use the samples below to add ZIM to your project
 
 
 ### VUE - with zim namespace
@@ -251,4 +251,4 @@ If you have a project that doesn't use typescript you can use the samples below 
 
 ### Special Thanks
 
-Dr. Abstract [@danzen](https://github.com/danzen)
+Dr Abstract [@danzen](https://github.com/danzen)
