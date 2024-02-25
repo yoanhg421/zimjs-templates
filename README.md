@@ -29,7 +29,7 @@ npm install -g @angular/cli
 5. Run ```ng serve```
 
 
- And you are good to go.
+And you are good to go.
 
 
 ## Using ZIM without typescript 
