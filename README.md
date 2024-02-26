@@ -8,10 +8,10 @@ Useful links:
 - https://github.com/danzen/zimjs
 - https://zimjs.slack.com
 
-### Intructions
+### Instructions
 
 1. All templates are Plug 'n Play. 
-2. Clone the repo or download the CODE (green button). 
+2. Clone the repo or download the CODE (green button on main page). 
 3. Unzip and open the template folder in and editor
 4. Open a terminal (CTRL ` ) 
 
