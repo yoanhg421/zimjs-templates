@@ -10,9 +10,9 @@ Useful links:
 
 ### Instructions
 
-1. All templates are Plug 'n Play
-2. Clone the repo or download the CODE (green button on main page)
-3. Unzip and open the template folder in an editor
+1. Download the CODE (green button on main page)
+2. Unzip, copy a desired template folder, and rename it
+3. Drop the folder on an editor such as VS Code.
 4. Open a terminal (CTRL ` )
 
 If you are using React, Vue, Svelte
@@ -26,8 +26,8 @@ If you are have Angular and haven't done so already, install it globally by runn
 npm install -g @angular/cli
 ```
 
-4. Run ```npm install```
-5. Run ```ng serve```
+7. Run ```npm install```
+8. Run ```ng serve```
 
 
 <p>And you are good to go.</p>
