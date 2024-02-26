@@ -26,8 +26,8 @@ If you are have Angular and haven't done so already, install it globally by runn
 npm install -g @angular/cli
 ```
 
-7. Run ```npm install```
-8. Run ```ng serve```
+5. Run ```npm install```
+6. Run ```ng serve```
 
 
 <p>And you are good to go.</p>
