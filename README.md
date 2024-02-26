@@ -13,7 +13,7 @@ Useful links:
 1. All templates are Plug 'n Play. 
 2. Clone the repo or download the CODE (green button). 
 3. Unzip and open the template folder in and editor
-4. Open a terminal (CTRL `) 
+4. Open a terminal (CTRL ` ) 
 
 If you are using React, Vue, Svelte
 
