@@ -1,6 +1,6 @@
-#Welcome
+<img src=https://github.com/danzen/zimjs-templates/assets/380281/85f60a84-2835-4cb7-90bf-9087a68e7295 width=400>
 
-Here are templates to add ZIM to Vue, React, Svelte and Angular using NPM.
+<p>Here are NPM templates to add ZIM to Vue, React, Svelte and Angular using NPM.</p>
 
 Useful links:
 - https://zimjs.com 
@@ -11,8 +11,9 @@ Useful links:
 ### Intructions
 
 1. All templates are Plug 'n Play. 
-2. Just clone the repo or download the template you want. 
-3. Open the template folder of your choice in your editor 
+2. Clone the repo or download the CODE (green button). 
+3. Unzip and open the template folder in and editor
+4. Open a terminal (CTRL `) 
 
 If you are using React, Vue, Svelte
 
@@ -29,12 +30,20 @@ npm install -g @angular/cli
 5. Run ```ng serve```
 
 
-And you are good to go.
+<p>And you are good to go.</p>
+
+## Helper Modules 
+
+<p>The ZIM Helper Modules are available here:</p>
+
+<p><a href=https://www.npmjs.com/package/@zimjs/physics target="_blank">@zimjs/physics</a> | <a href=https://www.npmjs.com/package/@zimjs/game target="_blank">@zimjs/game</a> | <a href=https://www.npmjs.com/package/@zimjs/three target="_blank">@zimjs/three</a> | <a href=https://www.npmjs.com/package/@zimjs/cam target="_blank">@zimjs/cam</a> | <a href=https://www.npmjs.com/package/@zimjs/pizzazz target="_blank">@zimjs/pizzazz</a></p>
+
+<p>Follow the instructios on the NPM page</p>
 
 
 ## Using ZIM without typescript 
 
-If you have a project that doesn't use typescript you can use the samples below to add ZIM to your project
+<p>If you have a project that doesn't use typescript you can use the samples below to add ZIM to your project</p>
 
 
 ### VUE - with zim namespace
