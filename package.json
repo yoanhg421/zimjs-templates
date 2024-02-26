@@ -1,6 +1,6 @@
 {
   "name": "zimjs-templates",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Templates for using the ZIM Canvas Framework inside React, Angular, Vue and Svelte",
   "main": "index.js",
   "scripts": {
