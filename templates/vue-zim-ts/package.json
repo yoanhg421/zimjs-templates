@@ -10,12 +10,12 @@
   },
   "dependencies": {
     "vue": "^3.3.4",
-    "zimjs": "^15.0.1"
+    "zimjs": "^16.1.8"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
     "typescript": "^5.0.2",
-    "vite": "^4.4.5",
+    "vite": "^5.1.4",
     "vue-tsc": "^1.8.5"
   }
 }

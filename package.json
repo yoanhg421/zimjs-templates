@@ -1,7 +1,7 @@
 {
   "name": "zimjs-templates",
-  "version": "1.0.0",
-  "description": "A Collection of templates that implement zimjs",
+  "version": "1.1.1",
+  "description": "Templates for using the ZIM Canvas Framework inside React, Angular, Vue and Svelte",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
