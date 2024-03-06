@@ -8,5 +8,7 @@
   },
   "author": "Yoan Herrera",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "vite": "^5.1.5"
+  }
 }
