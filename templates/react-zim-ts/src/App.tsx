@@ -9,12 +9,12 @@ class ZimFrame extends Component {
 
     componentDidMount(): void {
 
-        frame = new Frame({
+        this.frame = new Frame({
             scaling: "zim",
             width: 600,
             height: 300,
             color: lighter,
-            outerColor: grey,
+            outerColor: blue,
             mouseMoveOutside: true, // so Pen and Dial work better
             ready: () => {
 

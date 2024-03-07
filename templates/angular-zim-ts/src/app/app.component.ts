@@ -18,7 +18,7 @@ export class AppComponent implements OnDestroy, AfterContentInit {
             width: 600,
             height: 300,
             color: lighter,
-            outerColor: grey,
+            outerColor: blue,
             mouseMoveOutside: true, // so Pen and Dial work better
             ready: () => {
                 
